@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  white-space: nowrap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.body-control {
+  position: relative;
+  top: 100px;
+}
+
+.btn-control {
+  margin-bottom: 20px;
+}
+
+.btn-control:hover {
+  background-color: #1c857f;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #1c857f;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+
+.form-control::-webkit-input-placeholder {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.form-control:-ms-input-placeholder {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.form-control::-ms-input-placeholder {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.form-control::placeholder {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.form-control-label {
+  font-size: 15px;
+  color: #1c857f;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.form-header {
+  color: #ffffff;
+  background-color: #1c857f;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  z-index: -999;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  width: 100%;
+  height: 100%;
+  background-image: url(../IG/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  margin: -5px -10px -10px -5px;
+}
+
+.navbar-control {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 41.5%;
+}
+
+.navbar-background {
+  background-color: #1c857f;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.header-control {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 1120px;
+    width: 800px;
+  }
+  .bg {
+    width: 100%;
+    height: 100%;
+  }
+  .navbar-control {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 29%;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    height: 568px;
+    width: 330px;
+  }
+  .body-control {
+    position: relative;
+    top: 0;
+  }
+  .navbar-control {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=formStyle.css.map */
