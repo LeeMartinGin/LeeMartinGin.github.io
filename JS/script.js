@@ -32,7 +32,7 @@ $(document).ready(function () {
     auth.signInWithEmailAndPassword($email.val(), $password.val())
 
       .then(function () {       
-        window.location.href = "./profile.html";
+        window.location.href = "https://chinjiangin.github.io/";
       })
       .catch(function (e) {
         //$signInfo.html(e.message);
