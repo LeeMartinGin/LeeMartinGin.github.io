@@ -32,7 +32,7 @@ $(document).ready(function () {
     auth.signInWithEmailAndPassword($email.val(), $password.val())
 
       .then(function () {       
-        window.location.href = "https://chinjiangin.github.io/";
+        window.location.href = "https://chinjiangin.github.io";
       })
       .catch(function (e) {
         //$signInfo.html(e.message);
@@ -51,7 +51,7 @@ $(document).ready(function () {
               $email.val('');
               $password.val('');
               $('#userName').val('');
-              window.location.href = "https://chinjiangin.github.io/";
+              window.location.href = "https://chinjiangin.github.io";
             })
         } else {
           //$signInfo.html(e.message);
